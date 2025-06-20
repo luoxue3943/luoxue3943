@@ -5,23 +5,18 @@ on:
   schedule:
     # 中国时间每天 4:00 → UTC 20:00
     - cron: "0 20 * * *"
-
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      # 拉取仓库
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Generate WakaTime section
-        uses: athul/waka-readme@master
+      - uses: athul/waka-readme@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
+          API_BASE_URL: https://wakatime.com/api
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: ->
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
           CODE_LANG: rust
           TIME_RANGE: all_time
           LANG_COUNT: 10
@@ -30,10 +25,7 @@ jobs:
           SHOW_MASKED_TIME: false
           STOP_AT_OTHER: true
           IGNORED_LANGUAGES: YAML JSON TOML
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           TARGET_BRANCH: master
           TARGET_PATH: README.md
-          COMMITTER_NAME: GitHubActionBot
-          COMMITTER_EMAIL: action-bot@github.com
-          AUTHOR_NAME: YOUR_NAME
-          AUTHOR_EMAIL: YOUR@EMAIL.com
+          AUTHOR_NAME: 珞雪
+          AUTHOR_EMAIL: luoxue3943@gmail.com
