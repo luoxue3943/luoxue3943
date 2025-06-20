@@ -21,7 +21,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: ">-"
+          BLOCKS: ->
           CODE_LANG: rust
           TIME_RANGE: all_time
           LANG_COUNT: 10
@@ -37,11 +37,3 @@ jobs:
           COMMITTER_EMAIL: action-bot@github.com
           AUTHOR_NAME: YOUR_NAME
           AUTHOR_EMAIL: YOUR@EMAIL.com
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "${{ steps.generate.outputs.committer_name || 'GitHubActionBot' }}"
-          git config user.email "${{ steps.generate.outputs.committer_email || 'action-bot@github.com' }}"
-          git add ${{ inputs.TARGET_PATH || 'README.md' }}
-          git commit -m "${{ inputs.COMMIT_MESSAGE || 'chore: update waka metrics' }}" || echo "No changes to commit"
-          git push origin ${{ inputs.TARGET_BRANCH || 'master' }}
