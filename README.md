@@ -1,13 +1,13 @@
 # 珞雪
 
-Welcome~
-是07年天才少女！丨INFP丨 半个家长党丨日常状态随机刷新丨正在进行全栈开发
+**Welcome~** 
+是 07 年天才少女｜INFP｜半个家长党｜日常状态随机刷新｜正在进行全栈开发 🚀
 
 ---
 
 ## 🔧 技术栈
 
-语言 ![Rust](https://img.shields.io/badge/-Rust-DEA584?style=flat&logo=rust&logoColor=white)![Python](https://img.shields.io/badge/-Python-FFD43B?style=flat&logo=python&logoColor=306998)![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white)![JavaScript](https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=323330)![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+语言 ![Rust](https://img.shields.io/badge/-Rust-DEA584?style=flat&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/-Python-FFD43B?style=flat&logo=python&logoColor=306998) ![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=323330)![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
 框架 / 平台 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
 
