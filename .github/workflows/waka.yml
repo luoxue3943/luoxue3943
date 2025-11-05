@@ -24,12 +24,12 @@ jobs:
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
           CODE_LANG: TypeScript
           TIME_RANGE: all_time
-          LANG_COUNT: 10
+          LANG_COUNT: 20
           SHOW_TIME: true
           SHOW_TOTAL: true
           SHOW_MASKED_TIME: true
           STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML CSS Vue.js Kotlin Java
+          IGNORED_LANGUAGES: YAML JSON TOML CSS XML
           TARGET_BRANCH: master
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
