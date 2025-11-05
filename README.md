@@ -1,5 +1,11 @@
 # 珞雪(luoxue)
 
+<div align="center">
+
+⭐ _“Build what you love, and the rest will follow.”_
+
+</div>
+
 ## Welcome~
 
 ✨ 07 genius girl | INFP / ENFP
@@ -54,3 +60,4 @@ Other                      1 hr 41 mins    ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 - [![Telegram](https://img.shields.io/badge/Telegram-0088cc?style=flat&logo=telegram&logoColor=white)](https://t.me/luoxue3943)
 
 ⭐ _“Build what you love, and the rest will follow.”_
+
