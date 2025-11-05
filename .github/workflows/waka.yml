@@ -6,8 +6,9 @@ on:
     # 中国时间每天 4:00 → UTC 20:00
     - cron: "0 20 * * *"
   push:
-    branches:
-      - master
+    branches: [ master ]
+    paths:
+      - README.md
       
 jobs:
   update-readme:
@@ -16,20 +17,22 @@ jobs:
     steps:
       - uses: athul/waka-readme@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           API_BASE_URL: https://wakatime.com/api
           SHOW_TITLE: true
           SECTION_NAME: waka
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
-          CODE_LANG: rust
+          CODE_LANG: TypeScript
           TIME_RANGE: all_time
-          LANG_COUNT: 10
+          LANG_COUNT: 7
           SHOW_TIME: true
           SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
+          SHOW_MASKED_TIME: true
           STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML
+          IGNORED_LANGUAGES: YAML JSON TOML CSS
           TARGET_BRANCH: master
           TARGET_PATH: README.md
+          COMMITTER_NAME: GitHubActionBot
+          COMMITTER_EMAIL: action-bot@github.com
           AUTHOR_NAME: 珞雪
           AUTHOR_EMAIL: luoxue3943@gmail.com
