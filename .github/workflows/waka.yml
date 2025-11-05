@@ -5,6 +5,10 @@ on:
   schedule:
     # 中国时间每天 4:00 → UTC 20:00
     - cron: "0 20 * * *"
+  push:
+    branches:
+      - master
+      
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
