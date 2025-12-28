@@ -25,7 +25,7 @@
 <!--START_SECTION:waka-->
 
 ```TypeScript
-From: 06 October 2024 - To: 27 December 2025
+From: 06 October 2024 - To: 28 December 2025
 
 Total Time: 382 hrs 10 mins
 
